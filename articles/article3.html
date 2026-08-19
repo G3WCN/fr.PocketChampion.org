@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Téracristallisation PocketChampion : stratégie de combat en arène</title>
+  <meta name="description" content="Téracristallisation PocketChampion expliquée : changement de type Térastral, bonus d'attaque, timing et synergies pour dominer l'arène du RPG mobile.">
+  <meta name="keywords" content="Téracristallisation PocketChampion, changement de type Térastral, bonus d'attaque, système de combat, RPG mobile, arène, Méga-Évolution, stratégie">
+  <link rel="canonical" href="https://fr.PocketChampion.org/articles/article3.html">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="alternate" hreflang="en" href="https://www.PocketChampion.org/articles/article3.html">
+  <link rel="alternate" hreflang="es" href="https://es.PocketChampion.org/articles/article3.html">
+  <link rel="alternate" hreflang="pt" href="https://pt.PocketChampion.org/articles/article3.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://zh.PocketChampion.org/articles/article3.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://zhtw.PocketChampion.org/articles/article3.html">
+  <link rel="alternate" hreflang="ko" href="https://ko.PocketChampion.org/articles/article3.html">
+  <link rel="alternate" hreflang="fr" href="https://fr.PocketChampion.org/articles/article3.html">
+  <link rel="alternate" hreflang="de" href="https://de.PocketChampion.org/articles/article3.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.PocketChampion.org/articles/article3.html">
+  <meta property="og:title" content="Téracristallisation PocketChampion : stratégie de combat en arène">
+  <meta property="og:description" content="Téracristallisation PocketChampion expliquée : changement de type Térastral, bonus de puissance d'attaque, timing optimal et synergies avec la Méga-Évolution pour dominer les combats en arène du RPG mobile.">
+  <meta property="og:image" content="https://fr.PocketChampion.org/images/Français/1.jpg">
+  <meta property="og:url" content="https://fr.PocketChampion.org/articles/article3.html">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Téracristallisation PocketChampion : stratégie de combat en arène">
+  <meta name="twitter:description" content="Téracristallisation PocketChampion expliquée : changement de type Térastral, bonus de puissance d'attaque, timing optimal et synergies avec la Méga-Évolution pour dominer les combats en arène du RPG mobile.">
+  <meta name="twitter:image" content="https://fr.PocketChampion.org/images/Français/1.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#141414;--ink-soft:#3a3a3a;--muted:#6b675f;
+      --paper:#ffffff;--ivory:#faf8f4;--smoke:#f2f0ea;
+      --gold:#C9A227;--gold-deep:#a3841f;
+      --line:#141414;--hairline:rgba(20,20,20,.16);
+      --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+      --sans:'Montserrat',-apple-system,'Segoe UI','Helvetica Neue',sans-serif;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    html,body{overflow-x:hidden}
+    body{background:var(--ivory);color:var(--ink);font-family:var(--sans);line-height:1.8;-webkit-font-smoothing:antialiased;font-size:15px}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    ::selection{background:var(--gold);color:#fff}
+    a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+    .wrap{width:min(1180px,92vw);margin:0 auto}
+    .nav{position:sticky;top:0;z-index:60;background:#fff;border-bottom:1px solid var(--line)}
+    .navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);font-size:24px;font-weight:600;letter-spacing:.02em;line-height:1}
+    .brand img{width:38px;height:38px;border-radius:50%;border:1px solid var(--hairline)}
+    .brand em{font-style:italic;color:var(--gold-deep)}
+    .links{display:flex;align-items:center;gap:22px;font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+    .links>a{padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+    .links>a:hover,.links>a.active{color:var(--gold-deep);border-bottom-color:var(--gold)}
+    .navctrls{display:flex;align-items:center;gap:12px}
+    .download{border:1px solid var(--line);padding:10px 18px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:11.5px;transition:background .2s,color .2s}
+    .download:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+    select{background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:0;padding:9px 10px;font-family:var(--sans);font-size:12px;cursor:pointer;font-weight:600}
+    .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+    .burger span{display:block;width:24px;height:1.5px;background:var(--ink)}
+    .ahero{border-bottom:1px solid var(--line)}
+    .ahero .wrap{padding:96px 0 64px;max-width:880px}
+    .eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:11px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-deep)}
+    .eyebrow:before{content:"";width:34px;height:1px;background:var(--gold)}
+    .ahero h1{font-family:var(--serif);font-weight:500;font-size:clamp(38px,5.4vw,72px);line-height:1.05;margin:22px 0 24px}
+    .ahero h1 em{font-style:italic;color:var(--gold-deep);font-weight:500}
+    .ahero .lead{color:var(--muted);font-size:16.5px;max-width:700px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--line);padding:15px 28px;font-weight:700;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;transition:all .25s;background:transparent;color:var(--ink);margin-top:32px}
+    .btn:hover{border-color:var(--ink);background:var(--ink);color:#fff}
+    .btn.solid{background:var(--ink);border-color:var(--ink);color:#fff}
+    .btn.solid:hover{background:var(--gold);border-color:var(--gold);color:#141414}
+    .article{padding:96px 0}
+    .content{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:60px;align-items:start}
+    .prose{max-width:720px}
+    .chips{display:flex;flex-wrap:wrap;gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line);margin:0 0 34px}
+    .chip{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 16px;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-deep)}
+    .prose .dropcap:first-letter{font-family:var(--serif);font-size:64px;line-height:.82;float:left;padding:8px 12px 0 0;color:var(--gold-deep);font-weight:600}
+    .prose p{color:var(--ink-soft);margin-bottom:18px;font-size:15.5px}
+    .prose h2{font-family:var(--serif);font-weight:600;font-size:30px;margin:44px 0 14px;line-height:1.2;border-top:1px solid var(--line);padding-top:26px}
+    .prose ul{list-style:none;margin:0 0 20px;border-top:1px solid var(--hairline)}
+    .prose li{padding:12px 0 12px 30px;position:relative;border-bottom:1px solid var(--hairline);font-size:15px;color:var(--ink-soft)}
+    .prose li:before{content:"—";position:absolute;left:0;color:var(--gold-deep);font-weight:700}
+    .tip{border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);padding:18px 22px;margin:30px 0;font-size:14.5px;font-style:italic;color:var(--ink)}
+    .tip b{color:var(--gold-deep);font-style:normal}
+    .side{position:sticky;top:96px;border-top:2px solid var(--ink);padding-top:22px}
+    .side h4{font-family:var(--serif);font-size:19px;font-weight:600;margin-bottom:6px}
+    .side a{display:block;color:var(--muted);font-size:13.5px;padding:11px 0;border-bottom:1px solid var(--hairline)}
+    .side a:hover{color:var(--gold-deep)}
+    .side .dl{border:0;background:var(--ink);color:#fff;text-align:center;padding:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:12px;margin-top:8px}
+    .side .dl:hover{background:var(--gold);color:#141414}
+    .cta{background:var(--ink);color:#fff;text-align:center;padding:84px 0}
+    .cta h2{font-family:var(--serif);font-weight:500;font-size:clamp(30px,4.6vw,52px);line-height:1.08;margin:14px 0 14px;color:#fff}
+    .cta h2 em{font-style:italic;color:var(--gold)}
+    .cta p{color:#c9c4b8;max-width:620px;margin:0 auto 26px}
+    .cta .btn{border-color:rgba(255,255,255,.45);color:#fff}
+    .cta .btn:hover{background:var(--gold);border-color:var(--gold);color:#141414}
+    .footer{background:#0d0d0d;color:#b9b4a9;padding:70px 0 0}
+    .foot{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1.3fr);gap:40px;padding-bottom:50px}
+    .footer h2.fh{font-family:var(--serif);font-size:28px;color:#fff;font-weight:500;margin-bottom:12px}
+    .footer h2.fh em{color:var(--gold);font-style:italic}
+    .footer h3{font-family:var(--serif);font-size:15px;color:#fff;font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin-bottom:16px;border-bottom:1px solid rgba(255,255,255,.15);padding-bottom:10px}
+    .footer a{display:block;margin:9px 0;color:#b9b4a9;font-size:13px;transition:color .2s}
+    .footer a:hover{color:var(--gold)}
+    .footer p{font-size:13px;color:#8f8a7f}
+    .copy{border-top:1px solid rgba(255,255,255,.12);padding:22px 0;font-size:12px;color:#7d786e;text-align:center}
+    .mobdl{display:none}
+    @media(max-width:768px){
+      .mobdl{display:block;position:fixed;left:0;right:0;bottom:0;z-index:90;background:#0d0d0d;border-top:1px solid var(--gold);padding:10px 12px calc(10px + env(safe-area-inset-bottom))}
+      .mobdl a{display:flex;align-items:center;justify-content:center;gap:10px;min-height:48px;background:var(--gold);color:#141414;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+      body{padding-bottom:76px}
+    }
+    @media(max-width:960px){
+      .navin{height:auto;padding:12px 0;flex-wrap:wrap}
+      .links{display:none;width:100%;flex-direction:column;align-items:flex-start;gap:16px;padding:16px 0 20px;border-top:1px solid var(--hairline)}
+      .links.open{display:flex}
+      .burger{display:flex}
+      .navctrls{width:100%;justify-content:space-between}
+      .content{grid-template-columns:1fr;gap:44px}
+      .side{position:static}
+      .article{padding:64px 0}
+      .foot{grid-template-columns:1fr 1fr}
+    }
+    @media(max-width:520px){.foot{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap navin">
+      <a class="brand" href="../index.html"><img src="../images/logo.png" alt="Logo PocketChampion">Pocket<em>Champion</em></a>
+      <button class="burger" id="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+      <div class="links" id="navlinks">
+        <a href="../index.html">Accueil</a>
+        <a href="../pokemon.html">Pokémon</a>
+        <a href="../features.html">Caractéristiques</a>
+        <a href="../guides.html">Guides</a>
+        <a href="../codes.html">Codes</a>
+        <a class="active" href="../articles.html">Articles</a>
+        <div class="navctrls">
+          <a class="download" href="https://hk.qu06.cn/gtpcsc/?WS5W76WR">Télécharger</a>
+          <select onchange="location.href=this.value" aria-label="Choisir la langue">
+            <option value="https://www.PocketChampion.org/articles/article3.html">English</option>
+            <option value="https://es.PocketChampion.org/articles/article3.html">Español</option>
+            <option value="https://pt.PocketChampion.org/articles/article3.html">Português</option>
+            <option value="https://zh.PocketChampion.org/articles/article3.html">简体中文</option>
+            <option value="https://zhtw.PocketChampion.org/articles/article3.html">繁體中文</option>
+            <option value="https://ko.PocketChampion.org/articles/article3.html">한국어</option>
+            <option value="https://fr.PocketChampion.org/articles/article3.html" selected>Français</option>
+            <option value="https://de.PocketChampion.org/articles/article3.html">Deutsch</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="ahero">
+    <div class="wrap">
+      <span class="eyebrow">Guide · Système</span>
+      <h1>La Téracristallisation <em>expliquée</em></h1>
+      <p class="lead">Changement de type Térastral, bonus de puissance et timing optimal : tout ce qu'il faut savoir pour exploiter ce système clé.</p>
+      <a class="btn solid" href="https://hk.qu06.cn/gtpcsc/?WS5W76WR">Télécharger pour jouer</a>
+    </div>
+  </header>
+
+  <main class="article">
+    <div class="wrap content">
+      <article class="prose">
+        <div class="chips"><span class="chip">Téracristallisation</span><span class="chip">Système de combat</span><span class="chip">Arène</span></div>
+        <p class="dropcap">La Téracristallisation est l'un des deux systèmes de transformation majeurs de PocketChampion, avec la Méga-Évolution. Elle permet à un champion de changer de type en combat en révélant son cristal Térastral, créant des retournements de situation spectaculaires.</p>
+        <h2>Comment fonctionne le cristal Térastral</h2>
+        <p>En activant la Téracristallisation, votre champion adopte un nouveau type Térastral pour toute la durée de l'état. Ce changement peut couvrir une faiblesse, amplifier une force ou surprendre l'adversaire en pleine lecture stratégique.</p>
+        <h2>Le bonus de puissance d'attaque</h2>
+        <p>Outre le changement de type, la Téracristallisation accorde un bonus significatif aux attaques correspondant au nouveau type Térastral. C'est l'outil idéal pour porter un coup décisif au moment crucial.</p>
+        <div class="tip"><b>Conseil :</b> ne révélez pas votre Téracristallisation trop tôt. Gardez-la pour le moment où elle peut couvrir une faiblesse ou renverser le cours du combat.</div>
+        <h2>Quand Téracristalliser ?</h2>
+        <ul>
+          <li>Face à une attaque super efficace que votre type Térastral peut neutraliser.</li>
+          <li>Pour profiter du bonus de puissance sur une attaque décisive.</li>
+          <li>Pour surprendre les prédictions adverses en arène.</li>
+          <li>En synergie avec la Méga-Évolution pour un double effet tactique.</li>
+        </ul>
+        <h2>Téracristallisation et Méga-Évolution</h2>
+        <p>Les deux systèmes peuvent se combiner avec finesse : la Méga-Évolution améliore les statistiques et la forme, tandis que la Téracristallisation ajuste le type et la puissance. Un joueur maîtrisant les deux contrôle réellement le rythme du combat.</p>
+        <h2>Se préparer à l'arène</h2>
+        <p>En arène classée, la Téracristallisation est un levier de lecture et d'adaptation. Anticipez les Téracristallisations adverses et préparez des contre-choix pour transformer les situations défavorables en avantage.</p>
+      </article>
+      <aside class="side">
+        <h4>À lire ensuite</h4>
+        <a href="article1.html">Lancement et récompenses de téléchargement</a>
+        <a href="article2.html">Choix du starter</a>
+        <a href="article4.html">Stratégies d'arène multijoueur</a>
+        <a href="../codes.html">Codes de rédemption et codes cadeaux</a>
+        <a class="dl" href="https://hk.qu06.cn/gtpcsc/?WS5W76WR">Télécharger maintenant</a>
+      </aside>
+    </div>
+  </main>
+
+  <section class="cta">
+    <div class="wrap">
+      <span class="eyebrow">Maîtrisez le système</span>
+      <h2>Exploitez le <em>cristal</em> Térastral</h2>
+      <p>Téléchargez PocketChampion et appliquez ces stratégies dès votre prochain combat.</p>
+      <a class="btn" href="https://hk.qu06.cn/gtpcsc/?WS5W76WR">Télécharger maintenant</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap foot">
+      <div>
+        <h2 class="fh">Pocket<em>Champion</em></h2>
+        <p>Guide français de la Téracristallisation dans PocketChampion : système de combat, arène et stratégie RPG mobile.</p>
+      </div>
+      <div>
+        <h3>Le jeu</h3>
+        <a href="../pokemon.html">Pokédex Pokémon</a>
+        <a href="../features.html">Caractéristiques</a>
+        <a href="../guides.html">Guides</a>
+        <a href="../codes.html">Codes de rédemption</a>
+      </div>
+      <div>
+        <h3>Articles</h3>
+        <a href="../articles.html">Tous les articles</a>
+        <a href="article1.html">Lancement officiel</a>
+        <a href="article2.html">Choix du starter</a>
+      </div>
+      <div>
+        <h3>Langues</h3>
+        <a href="https://www.PocketChampion.org/articles/article3.html">English</a>
+        <a href="https://es.PocketChampion.org/articles/article3.html">Español</a>
+        <a href="https://pt.PocketChampion.org/articles/article3.html">Português</a>
+        <a href="https://fr.PocketChampion.org/articles/article3.html">Français</a>
+        <a href="https://de.PocketChampion.org/articles/article3.html">Deutsch</a>
+        <a href="https://ko.PocketChampion.org/articles/article3.html">한국어</a>
+        <a href="https://zh.PocketChampion.org/articles/article3.html">简体中文</a>
+        <a href="https://zhtw.PocketChampion.org/articles/article3.html">繁體中文</a>
+      </div>
+    </div>
+    <div class="copy">© 2026 fr.PocketChampion.org. Tous droits réservés. Téléchargement officiel : https://hk.qu06.cn/gtpcsc/?WS5W76WR · <a href="https://discord.gg/pKYe2FfzuQ" rel="noopener" target="_blank" style="color:inherit;text-decoration:underline">Rejoindre Discord</a></div>
+  </footer>
+
+  <div class="mobdl"><a href="https://hk.qu06.cn/gtpcsc/?WS5W76WR">Télécharger PocketChampion</a></div>
+
+  <script>
+    var b=document.getElementById('burger'),n=document.getElementById('navlinks');
+    b.addEventListener('click',function(){n.classList.toggle('open');});
+  </script>
+</body>
+</html>
