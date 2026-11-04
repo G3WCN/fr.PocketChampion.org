@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guides et astuces Pokémon mobile PocketChampion : débuter, arène</title>
-  <meta name="description" content="Guides et astuces PocketChampion en français : débuter, choisir son starter, Méga-Évolution, Téracristallisation, combats multijoueurs et codes de rédemption.">
+  <title>Guides PocketChampion — Équipes, Arène et Progression</title>
+  <meta name="description" content="Guides d'équipe, stratégie d'arène et progression pour débuter sans gaspiller de ressources.">
   <meta name="keywords" content="guide PocketChampion, astuces Pokémon mobile, comment débuter PocketChampion, meilleur starter, guide de l'arène, Méga-Évolution guide, Téracristallisation guide, collection de monstres, RPG mobile guide">
   <link rel="canonical" href="https://fr.PocketChampion.org/guides.html">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -17,19 +16,48 @@
   <link rel="alternate" hreflang="fr" href="https://fr.PocketChampion.org/guides.html">
   <link rel="alternate" hreflang="de" href="https://de.PocketChampion.org/guides.html">
   <link rel="alternate" hreflang="x-default" href="https://www.PocketChampion.org/guides.html">
-  <meta property="og:title" content="Guides et astuces Pokémon mobile PocketChampion : débuter, arène">
-  <meta property="og:description" content="Guides et astuces Pokémon mobile PocketChampion en français : comment débuter, choisir son starter, collectionner les monstres, maîtriser la Méga-Évolution, la Téracristallisation et les combats d'arène multijoueur, avec les codes de rédemption.">
+  <meta property="og:title" content="Guides PocketChampion — Équipes, Arène et Progression">
+  <meta property="og:description" content="Guides d'équipe, stratégie d'arène et progression pour débuter sans gaspiller de ressources.">
   <meta property="og:image" content="https://fr.PocketChampion.org/images/Français/1.jpg">
   <meta property="og:url" content="https://fr.PocketChampion.org/guides.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Guides et astuces Pokémon mobile PocketChampion : débuter, arène">
-  <meta name="twitter:description" content="Guides et astuces Pokémon mobile PocketChampion en français : comment débuter, choisir son starter, collectionner les monstres, maîtriser la Méga-Évolution, la Téracristallisation et les combats d'arène multijoueur, avec les codes de rédemption.">
+  <meta name="twitter:title" content="Guides PocketChampion — Équipes, Arène et Progression">
+  <meta name="twitter:description" content="Guides d'équipe, stratégie d'arène et progression pour débuter sans gaspiller de ressources.">
   <meta name="twitter:image" content="https://fr.PocketChampion.org/images/Français/1.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/cormorant-garamond-400-700-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/cormorant-garamond-400-700-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(fonts/montserrat-300-700-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(fonts/montserrat-300-700-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
     :root{
       --ink:#141414;--ink-soft:#3a3a3a;--muted:#6b675f;
       --paper:#ffffff;--ivory:#faf8f4;--smoke:#f2f0ea;
@@ -135,11 +163,12 @@
     }
     @media(max-width:520px){.foot{grid-template-columns:1fr}}
   </style>
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><meta name="theme-color" content="#faf8f4"><meta property="og:site_name" content="PocketChampion"><meta property="og:locale" content="fr_FR"><meta property="og:image:width" content="1400"><meta property="og:image:height" content="788"><meta property="og:image:alt" content="PocketChampion : téléchargement et installation sur Android et iOS"><link rel="apple-touch-icon" sizes="128x128" href="images/logo.png"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://fr.PocketChampion.org/#organization","name":"PocketChampion","url":"https://fr.PocketChampion.org/","logo":{"@type":"ImageObject","url":"https://fr.PocketChampion.org/images/logo.png","width":128,"height":128}},{"@type":"WebPage","@id":"https://fr.PocketChampion.org/guides.html#webpage","url":"https://fr.PocketChampion.org/guides.html","name":"Guides PocketChampion — Équipes, Arène et Progression","description":"Guides d'équipe, stratégie d'arène et progression pour débuter sans gaspiller de ressources.","inLanguage":"fr","isPartOf":{"@id":"https://fr.PocketChampion.org/#website"},"breadcrumb":{"@id":"https://fr.PocketChampion.org/guides.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://fr.PocketChampion.org/guides.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://fr.PocketChampion.org/"},{"@type":"ListItem","position":2,"name":"Guides PocketChampion — Équipes, Arène et Progression","item":"https://fr.PocketChampion.org/guides.html"}]}]}</script>
 </head>
 <body>
   <nav class="nav">
     <div class="wrap navin">
-      <a class="brand" href="index.html"><img src="images/logo.png" alt="Logo PocketChampion">Pocket<em>Champion</em></a>
+      <a class="brand" href="index.html"><picture><source type="image/webp" srcset="images/logo.webp"></source><img src="images/logo.png" alt="Logo PocketChampion" width="128" height="128" loading="lazy" decoding="async"></picture>Pocket<em>Champion</em></a>
       <button class="burger" id="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
       <div class="links" id="navlinks">
         <a href="index.html">Accueil</a>
@@ -149,7 +178,7 @@
         <a href="codes.html">Codes</a>
         <a href="articles.html">Articles</a>
         <div class="navctrls">
-          <a class="download" href="https://hk.qu06.cn/gtpcsc/?WS5W76WR">Télécharger</a>
+          <a class="download" href="https://gtpcsc.pkmgame.com/?xamro7z8">Télécharger</a>
           <select onchange="location.href=this.value" aria-label="Choisir la langue">
             <option value="https://www.PocketChampion.org/guides.html">English</option>
             <option value="https://es.PocketChampion.org/guides.html">Español</option>
@@ -168,13 +197,13 @@
   <header class="hero">
     <div class="wrap">
       <div>
-        <span class="eyebrow">Guides & stratégie</span>
+        <span class="eyebrow">Guides &amp; stratégie</span>
         <h1>Progresser avec <em>élégance</em></h1>
         <p class="lead">Des guides français pas à pas pour débuter, choisir son starter, collectionner les monstres et dominer l'arène compétitive.</p>
-        <a class="btn solid" href="https://hk.qu06.cn/gtpcsc/?WS5W76WR">Télécharger et débuter</a>
+        <a class="btn solid" href="https://gtpcsc.pkmgame.com/?xamro7z8">Télécharger et débuter</a>
       </div>
       <figure class="heroimg">
-        <img src="images/Français/2.jpg" alt="Événement d'arène PocketChampion">
+        <picture><source type="image/webp" srcset="images/Français/2.webp"></source><img src="images/Fran%C3%A7ais/2.jpg" alt="Événement d'arène PocketChampion" width="1400" height="788" loading="lazy" decoding="async"></picture>
         <figcaption>Méthode, collection, compétition — n° 02, cahier des guides.</figcaption>
       </figure>
     </div>
@@ -189,9 +218,9 @@
           <a class="toclink" href="#debuter"><span class="n">01</span><div><b>Bien débuter</b><span>Les premiers pas après le téléchargement</span></div></a>
           <a class="toclink" href="#starter"><span class="n">02</span><div><b>Choisir son starter</b><span>Quel premier champion sélectionner ?</span></div></a>
           <a class="toclink" href="#collection"><span class="n">03</span><div><b>Construire sa collection</b><span>Capture, shiny et légendaires</span></div></a>
-          <a class="toclink" href="#combat"><span class="n">04</span><div><b>Maîtriser le combat</b><span>Méga-Évolution & Téracristallisation</span></div></a>
+          <a class="toclink" href="#combat"><span class="n">04</span><div><b>Maîtriser le combat</b><span>Méga-Évolution &amp; Téracristallisation</span></div></a>
           <a class="toclink" href="#arene"><span class="n">05</span><div><b>L'arène multijoueur</b><span>Échelons, contre-types et lecture</span></div></a>
-          <a class="toclink" href="#codes"><span class="n">06</span><div><b>Codes & récompenses</b><span>Accélérer avec les codes de rédemption</span></div></a>
+          <a class="toclink" href="#codes"><span class="n">06</span><div><b>Codes &amp; récompenses</b><span>Accélérer avec les codes de rédemption</span></div></a>
         </div>
       </div>
     </section>
@@ -258,7 +287,7 @@
 
     <section id="codes" style="background:var(--smoke);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
       <div class="wrap">
-        <div class="sec-head"><span class="eyebrow">Guide 06</span><h2>Codes & récompenses</h2><p>Accélérez votre progression avec les codes de rédemption officiels.</p></div>
+        <div class="sec-head"><span class="eyebrow">Guide 06</span><h2>Codes &amp; récompenses</h2><p>Accélérez votre progression avec les codes de rédemption officiels.</p></div>
         <div class="guide">
           <div class="gcard"><span class="num">01</span><h3>Où trouver les codes ?</h3><p>La page Codes centralise tous les codes actifs, leur date d'expiration et leurs récompenses.</p><ol><li>Consultez la page Codes chaque jour</li><li>Notez les dates d'expiration</li><li>Récupérez-les avant la limite</li></ol></div>
           <div class="gcard"><span class="num">02</span><h3>Comment les utiliser ?</h3><p>La rédemption se fait en quelques étapes depuis le jeu mobile.</p><ol><li>Ouvrez le profil de dresseur</li><li>Entrez dans les réglages</li><li>Collez le code puis validez</li></ol></div>
@@ -274,7 +303,7 @@
         <h2>Appliquez ces guides <em>dès maintenant</em></h2>
         <p>Téléchargez PocketChampion, récupérez vos codes et mettez ces stratégies en pratique en arène.</p>
         <div class="ctas">
-          <a class="btn gold" href="https://hk.qu06.cn/gtpcsc/?WS5W76WR">Télécharger le jeu</a>
+          <a class="btn gold" href="https://gtpcsc.pkmgame.com/?xamro7z8">Télécharger le jeu</a>
           <a class="btn" href="codes.html">Codes de rédemption</a>
         </div>
       </div>
@@ -312,10 +341,10 @@
         <a href="https://zhtw.PocketChampion.org/guides.html">繁體中文</a>
       </div>
     </div>
-    <div class="copy">© 2026 fr.PocketChampion.org. Tous droits réservés. Téléchargement officiel : https://hk.qu06.cn/gtpcsc/?WS5W76WR · <a href="https://discord.gg/pKYe2FfzuQ" rel="noopener" target="_blank" style="color:inherit;text-decoration:underline">Rejoindre Discord</a></div>
+    <div class="copy">© 2026 fr.PocketChampion.org. Tous droits réservés. Téléchargement officiel : https://gtpcsc.pkmgame.com/?xamro7z8 · <a href="https://discord.gg/pKYe2FfzuQ" rel="noopener" target="_blank" style="color:inherit;text-decoration:underline">Rejoindre Discord</a></div>
   </footer>
 
-  <div class="mobdl"><a href="https://hk.qu06.cn/gtpcsc/?WS5W76WR">Télécharger PocketChampion</a></div>
+  <div class="mobdl"><a href="https://gtpcsc.pkmgame.com/?xamro7z8">Télécharger PocketChampion</a></div>
 
   <script>
     var b=document.getElementById('burger'),n=document.getElementById('navlinks');
